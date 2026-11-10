@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{box-sizing:border-box}html{min-height:100%;background:#F3F5F9}body{min-height:100vh;color:#1B2A3B;font-size:14px;line-height:1.4}::selection{background:#D9ECFA;color:#0B2E59}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:none;box-shadow:0 0 0 3px rgba(0,161,222,.28)}
+
+html.dark,html.dark body{background:#0f172a;color:#e2e8f0}
+html.dark .bg-page-bg{background-color:#0f172a}
+html.dark .bg-white{background-color:#1e293b}
+html.dark .text-ink{color:#e2e8f0}
+html.dark .text-muted{color:#a7b3c4}
+html.dark .text-navy{color:#bfdbfe}
+html.dark .border-border{border-color:#334155}
+html.dark .border-\[\#8794A6\]{border-color:#475569}
+html.dark .bg-slate-50,html.dark .hover\:bg-slate-50:hover{background-color:#334155}
+html.dark .hover\:bg-slate-100:hover{background-color:#334155}
+html.dark .hover\:bg-page-bg:hover{background-color:#334155}
+html.dark input,html.dark select,html.dark textarea{border-color:#475569;background-color:#1e293b;color:#f1f5f9}
+html.dark input::placeholder,html.dark textarea::placeholder{color:#94a3b8}
+html.dark hr{border-color:#334155}
+html.dark .shadow-panel{box-shadow:0 2px 10px rgba(0,0,0,.2)}
