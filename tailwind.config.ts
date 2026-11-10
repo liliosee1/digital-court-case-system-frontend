@@ -1,0 +1,3 @@
+import type { Config } from 'tailwindcss';
+const config: Config = { darkMode: 'class', content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'], theme: { extend: { fontSize: { xs: ['12px', { lineHeight: '1.4' }], sm: ['13px', { lineHeight: '1.4' }], base: ['14px', { lineHeight: '1.45' }], lg: ['16px', { lineHeight: '1.35' }], '2xl': ['22px', { lineHeight: '1.2' }], '3xl': ['26px', { lineHeight: '1.15' }] }, colors: { navy: '#0B2E59', 'navy-active': '#17488A', 'flag-blue': '#00A1DE', 'flag-yellow': '#FAD201', 'flag-green': '#20603D', 'page-bg': '#F3F5F9', border: '#DDE3EC', ink: '#1B2A3B', muted: '#4A5B70' }, borderRadius: { card: '8px' }, boxShadow: { panel: '0 2px 10px rgba(11,46,89,.04)' } } }, plugins: [] };
+export default config;
