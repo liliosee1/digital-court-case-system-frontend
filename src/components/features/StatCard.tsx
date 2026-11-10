@@ -1,0 +1,2 @@
+import {Card} from '@/components/ui';import type {ReactNode} from 'react';
+export function StatCard({label,value,icon,change}:{label:string;value:string|number;icon:ReactNode;change?:string}){return <Card className="flex items-start justify-between"><div><p className="text-[12px] font-medium text-muted">{label}</p><p className="mt-2 text-[24px] font-bold tracking-tight text-ink">{value}</p>{change&&<p className="mt-1 text-xs text-muted">{change}</p>}</div><span className="grid h-9 w-9 place-items-center rounded-lg bg-[#EAF2FB] text-navy">{icon}</span></Card>}
