@@ -1,0 +1,2 @@
+import { cases } from '../mocks/data';import { delay,request,mocksEnabled } from '../client';import type { CaseRecord } from '@/types';
+export const trackService={async get(number:string){if(mocksEnabled()){await delay();const item=cases.find(c=>c.case_number.toLowerCase()===number.toLowerCase());if(!item)throw Error('No case was found with that number. Please check and try again.');return item}return request<CaseRecord>(`/track/${encodeURIComponent(number)}/`)}};
