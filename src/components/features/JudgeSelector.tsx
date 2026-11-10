@@ -1,0 +1,1 @@
+import {Select} from '@/components/ui';import type {SelectHTMLAttributes} from 'react';export function JudgeSelector(props:SelectHTMLAttributes<HTMLSelectElement>){return <Select aria-label="Select judge" {...props}><option value="">Select judge</option><option value="3">Hon. Marie Uwase</option></Select>}

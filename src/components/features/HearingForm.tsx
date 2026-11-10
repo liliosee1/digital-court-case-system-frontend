@@ -1,0 +1,1 @@
+'use client';import type {ReactNode} from 'react';export function HearingForm({children,onSubmit}:{children:ReactNode;onSubmit:(e:React.FormEvent<HTMLFormElement>)=>void}){return <form onSubmit={onSubmit} className="grid gap-5 sm:grid-cols-2">{children}</form>}
